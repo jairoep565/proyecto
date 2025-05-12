@@ -1,0 +1,55 @@
+/* General layout */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.main-background {
+  background-color: #1e1e2f; /* Verde oscuro */
+  height: calc(100vh - 70px);
+}
+
+/* Header */
+.logo {
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 10px 14px;
+  font-weight: bold;
+}
+
+/* Login box */
+.login-box {
+  background-color: #f0f4f8; /* Verde claro */
+  border-radius: 20px;
+  padding: 40px;
+  color: #000; /* Cambia a negro para mejor contraste */
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Form elements */
+.form-control {
+  border-radius: 10px;
+  background-color: #ccc;
+  border: none;
+}
+
+.btn-custom {
+  background-color: #3f51b5; /* Azul medio */
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.forgot-password {
+  font-size: 0.875rem;
+  color: #3f51b5; /* azul medio elegante */
+  text-decoration: none;
+}
+
+.create-account a {
+  color: #3f51b5; /* mismo azul para consistencia */
+  font-weight: bold;
+  text-decoration: none;
+}
