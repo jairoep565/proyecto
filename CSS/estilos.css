@@ -1,27 +1,26 @@
-/* Variables globales */
 :root {
     --dark-blue: #1e1e2f;
     --light-box: #f0f4f8;
     --link-blue: #3f51b5;
 }
 
-/* Estilos globales de cuerpo y HTML */
+
 body, html {
     margin: 0;
     height: 100%;
 }
 
-/* Fondo principal */
+
 .main-background {
     background-color: var(--dark-blue);
-    height: 100vh;  /* Asegura que la altura ocupe toda la ventana */
+    height: 100vh; 
     padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* Logo */
+
 .logo {
     width: 60px;
     height: 60px;
@@ -39,7 +38,7 @@ body, html {
     object-fit: cover;
 }
 
-/* Caja de login */
+
 .login-box {
     background-color: var(--light-box);
     border-radius: 20px;
@@ -49,7 +48,7 @@ body, html {
     max-width: 400px;
 }
 
-/* Estilos para los controles del formulario */
+
 .form-control {
     border-radius: 10px;
     background-color: #ccc;
@@ -62,7 +61,6 @@ body, html {
     border: none;
 }
 
-/* Botones personalizados */
 .btn-custom {
     background-color: var(--link-blue);
     color: white;
@@ -72,7 +70,7 @@ body, html {
     padding: 10px;
 }
 
-/* Enlaces */
+
 .forgot-password {
     font-size: 0.875rem;
     color: var(--link-blue);
@@ -85,7 +83,7 @@ body, html {
     text-decoration: none;
 }
 
-/* Diseño de paneles (si lo usas en el futuro) */
+
 .left-panel {
     width: 50%;
     background-color: var(--dark-blue);
@@ -99,7 +97,6 @@ body, html {
     position: relative;
 }
 
-/* Asegura que el diseño sea flexible y centrado */
 .form-container {
     width: 100%;
     max-width: 450px;
